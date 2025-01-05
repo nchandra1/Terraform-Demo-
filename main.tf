@@ -51,7 +51,7 @@ resource "aws_security_group" "terra_SG" {
       from_port        = 443
       to_port          = 443
       protocol         = "tcp"
-      cidr_blocks      = ["0.0.0.0/0", aws_vpc.terra_vpc.cidr_block]
+      cidr_blocks      = ["0.0.0.0/0"]
       ipv6_cidr_blocks  = []
       prefix_list_ids   = []
       security_groups   = []
@@ -62,7 +62,7 @@ resource "aws_security_group" "terra_SG" {
       from_port        = 80
       to_port          = 80
       protocol         = "tcp"
-      cidr_blocks      = ["0.0.0.0/0", aws_vpc.terra_vpc.cidr_block]
+      cidr_blocks      = ["0.0.0.0/0"]
       ipv6_cidr_blocks  = []
       prefix_list_ids   = []
       security_groups   = []
@@ -73,7 +73,7 @@ resource "aws_security_group" "terra_SG" {
       from_port        = 22
       to_port          = 22
       protocol         = "tcp"
-      cidr_blocks      = ["0.0.0.0/0", aws_vpc.terra_vpc.cidr_block]
+      cidr_blocks      = ["76.251.40.229/32"]
       ipv6_cidr_blocks  = []
       prefix_list_ids   = []
       security_groups   = []
