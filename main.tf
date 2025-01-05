@@ -125,6 +125,6 @@ resource "aws_instance" "terra_ec2" {
   user_data = file("${path.module}/user_data.sh")
   
   tags = {
-    name = "web_server_updated"
+    name = "web_server_updated_"
   }
 }
