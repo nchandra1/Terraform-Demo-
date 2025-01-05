@@ -1,2 +1,2 @@
-# Terraform-Demo-
-Terraform demo
+# terraform-demo
+Terraform Demo
