@@ -8,7 +8,6 @@ terraform {
         version = "4.67.0"
     }
   }
-
   
   cloud {
     organization = "demo-terraform-jan"  
