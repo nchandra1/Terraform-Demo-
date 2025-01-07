@@ -1,3 +1,5 @@
+### REQUIRED PROVIDER BLOCKS AND CLOUD BLOCK ###
+
 terraform {
   required_providers {
     aws = {

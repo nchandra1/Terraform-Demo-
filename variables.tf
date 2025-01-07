@@ -1,3 +1,5 @@
+### VARIABLE STORAGE AND ACCESS IN TERRAFORM. .AUTO.TFVARS - import variables from local to HCP Terraform ###
+
 variable "region" {
   description = "The AWS region in which the resources will be created."
   type        = string
