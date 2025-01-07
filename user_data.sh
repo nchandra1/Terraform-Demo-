@@ -1,5 +1,4 @@
 #!/bin/bash
-#executed when an EC2 instance is launched
 sudo apt update -y
 sudo apt install apache2 -y
 sudo systemctl start apache2
