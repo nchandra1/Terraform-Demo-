@@ -8,12 +8,22 @@ terraform {
         version = "4.67.0"
     }
   }
+
+  
   cloud {
     organization = "demo-terraform-jan"  
     workspaces {
       name = "Terraform-Demo-"  #name of workspace
     }
   }
+  
+
+
+  /*
+  backend "local" {
+    path = "terraform.tfstate"  # Path where the state file will be stored locally
+  }
+  */
 }
 
 provider "aws" {
