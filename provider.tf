@@ -1,4 +1,5 @@
-### REQUIRED PROVIDER BLOCKS AND CLOUD BLOCK ###
+### REQUIRED PROVIDER BLOCKS -NEED AWS PROVIDER FROM HASHICORP REGISTRY 
+### CLOUD BLOCK -CONNECT CONFIG TO WORKSPACE AND CENTRALIZE STATE, SECURE ACCESS CREDENTIALS, EXECUTE REMOTE RUNS###
 
 terraform {
   required_providers {
@@ -7,7 +8,6 @@ terraform {
         version = "4.67.0"
     }
   }
-
   cloud {
     organization = "demo-terraform-jan"  
     workspaces {
