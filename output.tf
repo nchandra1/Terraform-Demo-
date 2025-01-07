@@ -1,3 +1,5 @@
+### OUTPUTS IP OR DNS OF WEBSITE ###
+
 output "vpc_id" {
     description = "vpc id"
     value = aws_vpc.terra_vpc.id
